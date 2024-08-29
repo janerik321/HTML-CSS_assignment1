@@ -1,3 +1,31 @@
+.righteous-regular {
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  color: rgb(251, 246, 246);
+  font-family: "Righteous";
+  background-color: rgb(34, 32, 32);
+}
+
 p {
-  color: red;
+  color: rgb(130, 59, 59);
+  font-size: 1em;
+  /* font-family: "Righteous"; */
+}
+
+header {
+  /* background-color: rgb(184, 135, 135); */
+}
+footer {
+  text-align: center;
+}
+#logo {
+  width: 50px;
+}
+#oaktree-img {
+  width: 500px;
+  /* height: auto; */
 }
