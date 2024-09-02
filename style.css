@@ -1,24 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .righteous-regular {
   font-family: "Righteous", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
+header {
+  background-color: rgb(242, 242, 233);
+}
+#logo {
+  width: 100px;
+}
 h1 {
   color: rgb(153, 71, 71);
   font-family: "Righteous";
+
   /* background-color: rgb(207, 220, 220); */
 }
-
+nav {
+  padding: 5px 5px;
+}
 h2 {
   color: rgb(251, 246, 246);
-  /* font-family: "Righteous"; */
   background-color: rgb(174, 166, 166);
+  padding-left: 5px;
 }
 
 p {
   color: rgb(130, 59, 59);
   font-size: 1em;
-  /* font-family: "Righteous"; */
+  padding: 10px 5px;
 }
 
 header {
@@ -27,13 +42,24 @@ header {
 footer {
   text-align: center;
 }
-#logo {
-  width: 50px;
+
+.intro {
+  color: darkgreen;
+  width: 49%;
+  /* border: 2px solid green; */
+  display: inline-block;
+  padding: 10px 5px;
 }
+
+.oaktree {
+  width: 49%;
+  /* border: 2px solid red; */
+  display: inline-block;
+  vertical-align: top;
+  /* max-width: fit-content; */
+}
+
 #oaktree-img {
-  /* scale: 1; */
-  /* float: right; */
-  width: 500px;
-  padding-top: 1%;
-  /* height: auto; */
+  width: 100%;
+  padding: 10px;
 }
