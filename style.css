@@ -10,7 +10,8 @@
   font-style: normal;
 }
 header {
-  background-color: rgb(242, 242, 233);
+  background-color: #f3f3e8;
+  margin: 0 10%;
 }
 #logo {
   width: 100px;
@@ -18,11 +19,12 @@ header {
 h1 {
   color: rgb(153, 71, 71);
   font-family: "Righteous";
-
-  /* background-color: rgb(207, 220, 220); */
 }
 nav {
   padding: 5px 5px;
+}
+main {
+  margin: 0 10%;
 }
 h2 {
   color: rgb(251, 246, 246);
@@ -31,35 +33,35 @@ h2 {
 }
 
 p {
-  color: rgb(130, 59, 59);
-  font-size: 1em;
+  font-size: 1.05em;
   padding: 10px 5px;
 }
 
-header {
-  /* background-color: rgb(184, 135, 135); */
-}
 footer {
   text-align: center;
+  margin: 0px 0px 5px 0px;
 }
 
-.intro {
+#intro {
   color: darkgreen;
+  font-size: 1.05em;
   width: 49%;
-  /* border: 2px solid green; */
   display: inline-block;
   padding: 10px 5px;
 }
 
-.oaktree {
+.main_text {
+  color: rgb(130, 59, 59);
+}
+
+.right_pics {
   width: 49%;
-  /* border: 2px solid red; */
   display: inline-block;
   vertical-align: top;
-  /* max-width: fit-content; */
+  padding: 10px;
+  max-width: 580px;
 }
 
 #oaktree-img {
   width: 100%;
-  padding: 10px;
 }
